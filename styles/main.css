@@ -65,21 +65,49 @@ ul {
     justify-content: center;
     margin-top: 90px;
 }
-.main-form {
+
+.form-container {
     display: flex;
     justify-content: center;
+}
+.search-bar {
+    z-index: 1;
+    position: relative;
+    top: 50px;
+    width: 580px;
+    height: 45px;
+    border-radius: 290px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    padding-left: 40px;
+    font-size: 15px;
+    background-image: url(../images/mag.jpg);
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 9px 9px;
+
+}
+.search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(82, 82, 82, 0.3);
+    border-color: white;
+}
+
+.search-bar:focus {
+
 }
 
 .foot-container {
     border-top: 1px solid #dadce0;
     background-color: #f2f2f2;
-    height: 45px;
+    height: 42px;
     display: flex;
     justify-content: space-between;
 }
+
 .foot {
     display: inline-block;
-    margin: 16px 12px;
+    margin: 13px 12px;
     font-size: 14px;
 }
 .foot a:link,
