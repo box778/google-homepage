@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-a, foot {
+a {
     text-decoration: none;
 }
 a:hover {
@@ -27,6 +27,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+.head a:link,
 .head a:active,
 .head a:visited {
     color: rgba(0, 0, 0, 0);
@@ -81,6 +82,7 @@ ul {
     margin: 16px 12px;
     font-size: 14px;
 }
+.foot a:link,
 .foot a:active,
 .foot a:visited {
     color: rgb(102, 102, 102);
@@ -92,3 +94,4 @@ ul {
 .foot-container-right {
     margin-right: 18px;
 }
+
