@@ -30,7 +30,7 @@ ul {
 .head a:link,
 .head a:active,
 .head a:visited {
-    color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .head-container-left {
     margin-left: 22px;
