@@ -1,0 +1,94 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a, foot {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    opacity: 0.75;
+}
+ul {
+    list-style: none;
+}
+.head-container {
+    display: flex;
+    justify-content: space-between;
+}
+.head a:active,
+.head a:visited {
+    color: rgba(0, 0, 0, 0);
+}
+.head-container-left {
+    margin-left: 22px;
+    margin-top: 16px;
+    opacity: 0.8;
+}
+.head-container-right {
+    margin-right: 20px;
+}
+.head {
+    display: inline;
+    margin: 22px 6px;
+}
+.apps {
+    width: 23px;
+    position: relative;
+    top: 8px;
+    opacity: 0.8;
+}
+.avatar {
+    width: 30px;
+    position: relative;
+    top: 9px;
+    border-radius: 50%;
+}
+
+.main {
+    flex: 1;
+}
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.main-form {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-container {
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot {
+    display: inline-block;
+    margin: 16px 12px;
+    font-size: 14px;
+}
+.foot a:active,
+.foot a:visited {
+    color: rgb(102, 102, 102);
+}
+.foot-container-left {
+    margin-left: 18px;
+}
+
+.foot-container-right {
+    margin-right: 18px;
+}
