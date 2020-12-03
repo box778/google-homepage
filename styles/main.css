@@ -16,9 +16,10 @@ body {
 a {
     text-decoration: none;
 }
-a:hover {
+.link:hover,
+.foot:hover {
     text-decoration: underline;
-    opacity: 0.75;
+    opacity: 0.9;
 }
 ul {
     list-style: none;
@@ -33,22 +34,26 @@ ul {
     color: rgb(0, 0, 0);
 }
 .head-container-left {
-    margin-left: 22px;
-    margin-top: 16px;
+    margin-left: 20px;
+    margin-top: 22px;
     opacity: 0.8;
 }
 .head-container-right {
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-top: 5px;
 }
 .head {
     display: inline;
-    margin: 22px 6px;
+    margin: 20px 6px;
 }
 .apps {
-    width: 23px;
+    width: 24px;
     position: relative;
-    top: 8px;
-    opacity: 0.8;
+    top: 9px;
+    opacity: 0.7;
+}
+.apps:hover{
+    opacity: 1;
 }
 .avatar {
     width: 30px;
@@ -56,7 +61,6 @@ ul {
     top: 9px;
     border-radius: 50%;
 }
-
 .main {
     flex: 1;
 }
@@ -94,8 +98,30 @@ ul {
 }
 
 .search-bar:focus {
-
+    outline: none;
 }
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+.button-container a:link,
+.button-container a:active,
+.button-container a:visited {
+    color: rgb(49, 49, 49);
+}
+.button {
+    font-size: 14px;
+    background-color: rgb(248, 248, 248);
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
 
 .foot-container {
     border-top: 1px solid #dadce0;
