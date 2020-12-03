@@ -108,10 +108,15 @@ ul {
     position: relative;
     top: 80px;
 }
+
 .button-container a:link,
 .button-container a:active,
 .button-container a:visited {
     color: rgb(49, 49, 49);
+}
+.button:hover {
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
 .button {
     font-size: 14px;
@@ -119,6 +124,7 @@ ul {
     margin: 0 5px;
     padding: 10px 20px;
     border-radius: 5px;
+    border: 1px solid rgba(209, 209, 209, 0);
 }
 
 
